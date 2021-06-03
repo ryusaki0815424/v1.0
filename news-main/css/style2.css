@@ -1,0 +1,154 @@
+/*這是基本網頁設定*/
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+/*這是選單設定*/
+nav{
+	display:inline;
+}
+.navbar-brand img {
+	height: 50px;
+	float:left;
+
+}
+.navbar-brand h6{
+	padding-top: 12.5px;
+	font-weight: bold;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+
+/*這是關於我們*/
+.section1{
+	margin-right: 62px;
+    margin-left: 62px;
+}
+.title1{
+	margin-top: 130px;
+	color: #D95644;
+	text-align: center;
+}
+.p1{
+	padding: 30px;
+}
+
+/*這是大框框*/
+.p2{
+  margin-right: 62px;
+  margin-left: 62px;
+  border-style: dotted;
+　border-top:5px ;
+　border-right:8px ;
+　border-left:7px ;
+　border-bottom:3px;
+　padding-bottom:30px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  }
+
+
+/*這是理念與使命*/
+.section2{
+  margin-right: 82px;
+  margin-left: 82px;
+}
+.title2{
+	color: #D95644;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.p3{
+	line-height: 1.5;
+}
+
+
+/*這是聯絡我們*/
+.section3{
+  margin-right: 92px;
+  margin-left: 92px;
+  margin-bottom: 30px;
+}
+.form{
+  border-style: solid;
+　border-top:5px;
+　border-right:8px;
+　border-left:7px ;　
+　border-bottom:3px;
+  border-color: #adb5bd;
+  padding: 10px;
+}
+.title3{
+	color: #D95644;
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*這是框內文字*/
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border-width:1px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+	font-style: bold;
+}
+
+.form textarea {
+	height: 300px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border-width:1px;
+	padding: 12px;
+}
+
+/*這是傳送*/
+.send{
+	text-align: right;
+	padding:10px;
+	border-color:#adb5bd;
+}
+
+.send h5{
+	display:inline;
+	font-weight: bold;
+	font-style:italic;
+}
+
+
+/*這是footer*/
+.line{
+	  margin-right: 92px;
+  margin-left: 92px;
+	border: none;
+	border-bottom:2px dotted gray;
+}
+footer span{
+	font-size: 5px;
+}
+footer{
+
+		text-align: center;
+		margin-bottom: 20px;
+}

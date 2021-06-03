@@ -1,0 +1,77 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+nav{
+	display:inline;
+}
+.navbar-brand img {
+	height: 50px;
+	float:left;
+
+}
+.navbar-brand h6{
+	padding-top: 12.5px;
+	font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.main{
+	margin-right: 102px;
+	margin-left: 102px;
+}
+.main img{
+
+	padding-right: 30px;
+	width:100%;
+	margin-bottom: 15px;
+
+}
+.title1{
+	margin-top: 130px;
+	margin-bottom: 50px;
+	color: #D95644;
+	text-align: center;
+}
+.row{
+	display: inline-block;
+	justify-content:center;
+	padding-bottom: 40px;
+}
+.read{
+	text-align: right;
+}
+.line{
+		padding-top: 50px;
+	border: none;border-bottom:2px dotted gray
+}
+footer span{
+
+	font-size: 10px;
+}
+footer{
+		text-align: center;
+		margin-bottom: 20px;
+}
+
