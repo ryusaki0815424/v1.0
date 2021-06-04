@@ -5,8 +5,15 @@ html{
 * {
 	box-sizing: border-box;
 }
-p,h1,h2,h3,h4,h4,h6,div,span {
-	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+
+p{
+	font-family: PingFangTC-Light, sans-serif;
+}
+div,span {
+	font-family: PingFangTC-Light, sans-serif,Microsoft JhengHei;	
+}
+h3{
+	font-family: PingFangTC-Semibold, sans-serif;
 }
 
 nav{
@@ -38,8 +45,8 @@ nav{
 }
 
 .main{
-	margin-right: 102px;
-	margin-left: 102px;
+	margin-right: 80px;
+	margin-left: 80px;
 }
 .main img{
 
@@ -51,8 +58,10 @@ nav{
 .title1{
 	margin-top: 130px;
 	margin-bottom: 50px;
-	color: #D95644;
+	color: #F4715B;
 	text-align: center;
+	font-family: PingFangTC-Semibold, sans-serif;
+	font-size: 64px;
 }
 .row{
 	display: inline-block;
@@ -61,6 +70,8 @@ nav{
 }
 .read{
 	text-align: right;
+	font-family: PingFangTC-Semibold, sans-serif;
+	font-size: 28px;
 }
 .line{
 		padding-top: 50px;
